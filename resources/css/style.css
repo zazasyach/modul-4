@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+*{
+    font-family: "Inter", sans-serif;
+    list-style-type: none;
+    outline: none; border:none;
+    text-decoration: none;
+
+
+}
+
+a{
+    color: black;
+    outline: none; border:none;
+    text-decoration: none;
+}
+.wit{
+  color: white;
+}
+
+.red{
+    color: #9f1521;
+    font-weight: 800;
+}
+.bg-red{
+    background: #9f1521;
+  
+}
+.white{
+  color: white;
+}
+  .dropend .dropdown-toggle{
+    color: white;
+    border-bottom: 0.5px solid white;
+
+    background: #9f1521;
+    
+  }
+
+ .dropend .dropdown-toggle:hover{
+    background-color: white;
+    color: black;
+  }
+ 
+  .dropdown-item:hover{
+   
+    border-bottom: 1px solid white;
+  }
+  .dropdown .dropdown-menu{
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: .125em;
+    /* margin-left: .125em; */
+  }
+  @media screen and (min-width:992px) {
+    .dropend:hover > .dropdown-menu{
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    /* .dropend .dropdown-toggle{
+      
+    } */
+  }
